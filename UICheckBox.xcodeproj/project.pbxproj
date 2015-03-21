@@ -14,6 +14,7 @@
 		A21F74341ABDC957007A845A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21F74321ABDC957007A845A /* LaunchScreen.xib */; };
 		A21F74401ABDC957007A845A /* UICheckBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F743F1ABDC957007A845A /* UICheckBoxTests.swift */; };
 		A21F744A1ABDC9C3007A845A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A21F74491ABDC9C3007A845A /* README.md */; };
+		A21F744C1ABDCB08007A845A /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F744B1ABDCB08007A845A /* UICheckbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A21F743E1ABDC957007A845A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21F743F1ABDC957007A845A /* UICheckBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICheckBoxTests.swift; sourceTree = "<group>"; };
 		A21F74491ABDC9C3007A845A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A21F744B1ABDCB08007A845A /* UICheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				A21F74291ABDC957007A845A /* AppDelegate.swift */,
 				A21F742B1ABDC957007A845A /* ViewController.swift */,
+				A21F744B1ABDCB08007A845A /* UICheckbox.swift */,
 				A21F742D1ABDC957007A845A /* Main.storyboard */,
 				A21F74301ABDC957007A845A /* Images.xcassets */,
 				A21F74321ABDC957007A845A /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21F744C1ABDCB08007A845A /* UICheckbox.swift in Sources */,
 				A21F744A1ABDC9C3007A845A /* README.md in Sources */,
 				A21F742C1ABDC957007A845A /* ViewController.swift in Sources */,
 				A21F742A1ABDC957007A845A /* AppDelegate.swift in Sources */,
