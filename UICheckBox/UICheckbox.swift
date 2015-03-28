@@ -10,6 +10,12 @@ import UIKit
 
 @IBDesignable class UICheckbox: UIControl {
   
+    override var description: String {
+        get {
+            return "<UICheckbox>: checked? \(self.checked)"
+        }
+    }
+    
     override var backgroundColor: UIColor? {
         set(newColor) {
             super.backgroundColor = UIColor.clearColor()          
