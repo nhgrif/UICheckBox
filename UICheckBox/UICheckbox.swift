@@ -79,8 +79,8 @@ import UIKit
             self.setNeedsDisplay()
         }
     }
-    
-    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+
+    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         if (self.touchInside) {
             self.checked = !self.checked
             self.sendActionsForControlEvents(.ValueChanged)
